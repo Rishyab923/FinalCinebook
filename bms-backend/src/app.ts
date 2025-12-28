@@ -2,6 +2,9 @@ import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
 import cookieParser from "cookie-parser";
+import router from "./routes";
+import { globalErrorHandler } from "./middlewares/error.middleware";
+import routes from "./routes";
 
 dotenv.config();
 
@@ -16,12 +19,17 @@ app.use(
 app.use(cookieParser());
 app.use(express.json());
 
+// All Routes
+app.use("/api/v1/", router);
+
+app.use("/api", routes);
 
 // Global error handler (MUST be after all routes)
+app.use(globalErrorHandler);
 
 app.get("/", (_, res) => {
   res.json({
-    message: "Welcome to BookMyScreen API",
+    message: "Welcome to bookmyScreen API",
   });
 });
 

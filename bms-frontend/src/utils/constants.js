@@ -256,7 +256,7 @@ export const events = [
 
 export const theatres = [
   {
-    name: "INOX Quest Mall, Ballygunge, Kolkata",
+    name: "INOX Quest Mall, Ballygunge, Bengaluru",
     distance: "2.0 km",
     cancellation: "Allows cancellation",
     img: inox,
@@ -270,7 +270,7 @@ export const theatres = [
     ],
   },
   {
-    name: "INOX Forum Mall, Elgin Road, Kolkata",
+    name: "INOX Forum Mall, Elgin Road, Bengaluru",
     distance: "3.3 km",
     cancellation: "Allows cancellation",
     img: inox,
@@ -280,7 +280,7 @@ export const theatres = [
     ],
   },
   {
-    name: "PVR Manisquare, Manisqare Mall, Kolkata",
+    name: "PVR Manisquare, Manisqare Mall, Bengaluru",
     distance: "1.5 km",
     cancellation: "Non-cancellable",
     img: pvr,
@@ -292,7 +292,7 @@ export const theatres = [
     ],
   },
   {
-    name: "INOX South City Mall, South City Mall, Kolkata",
+    name: "INOX South City Mall, South City Mall, Bengaluru",
     distance: "3.5 km",
     cancellation: "Allows cancellation",
     img: inox,
@@ -304,7 +304,7 @@ export const theatres = [
     ],
   },
   {
-    name: "Cinepolis Acropolis Mall, Rajdanga Road, Kolkata",
+    name: "Cinepolis Acropolis Mall, Rajdanga Road, Bengaluru",
     distance: "1.8 km",
     cancellation: "Non-cancellable",
     img: cinepolis, // Make sure you have: `import cinepolis from "../assets/cinepolis.png"`
@@ -321,7 +321,7 @@ export const ordersData = [
     title: "Sinners",
     format: "2D",
     datetime: "Tue, 29 Apr 2025 | 9:45 PM",
-    cinema: "PVR: Mani Square Mall, Kolkata",
+    cinema: "PVR: Mani Square Mall, Bengaluru",
     quantity: 5,
     seats: "PE-P9,P10,P11,P12,P13",
     bookingTime: "Apr 29 2025 07:46PM",
@@ -336,7 +336,7 @@ export const ordersData = [
     title: "Kesari Chapter 2: The Untold Story of Jallianwala Bagh",
     format: "2D",
     datetime: "Sat, 26 Apr 2025 | 2:45 PM",
-    cinema: "Miraj Cinemas: Newtown, Kolkata",
+    cinema: "Miraj Cinemas: Newtown, Bengaluru",
     quantity: 3,
     seats: "PE-P9,P10,P11,P12,P13",
     bookingTime: "Apr 25 2025 04:00PM",
