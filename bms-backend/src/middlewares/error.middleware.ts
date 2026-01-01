@@ -30,4 +30,8 @@ export const globalErrorHandler = (
     message,
     errors,
   });
+<<<<<<< HEAD
 };
+=======
+};
+>>>>>>> bccff77cb28450856a139870ad32e65e3d0ec1a6
